@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+    height: 100vh;
+    width: 100%;
+  }
+
+  #NFT{
+    height: 596px;
+    width: 350px;
+    border-radius: 15px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+  }
+
+  #header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 302px;
+    width: 302px;
+    margin: 24px 24px 24px 24px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+
+  #header-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+
+  #header-eye-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+  #header-eye-img:hover {
+    background: rgba(0, 255, 247, 0.5);
+  }
+
+  #eye-img {
+    display: none;
+  }
+
+  #header-eye-img:hover  #eye-img {
+    display: block;
+  }
+
+
+  #section {
+    margin-bottom: 81px;
+    height: 165px;
+    margin: 24px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid #2E405A
+  }
+
+
+  #title{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  #title:hover {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #00FFF8;
+  }
+
+  #parag {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+  }
+
+  #section-info{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #section-info-eth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  #section-info-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  #eht-price {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+  }
+
+  #day {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+  }
+
+  #footer {
+    height: 65px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px 24px 24px 24px;
+    gap: 16px;
+  }
+
+  #avatar {
+    display: flex;
+    width: 33px;
+    height: 33px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-image: url(images/image-avatar.png);
+    background-size: 100%;
+  }
+
+  #Creation-of {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+  }
+  
+ 
+#Jules-Wyvern {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+#Jules-Wyvern:hover {
+    color: #00FFF8;
+  }
